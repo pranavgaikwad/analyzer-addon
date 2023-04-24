@@ -1,0 +1,36 @@
+{
+  "mode": {
+    "artifact": "",
+    "binary": false,
+    "diva": true,
+    "withDeps": false
+  },
+  "output": "/windup/report",
+  "rules": {
+    "bundles": [
+      {
+        "id": 12,
+        "name": "OpenShift Ruleset"
+      }
+    ],
+    "path": "",
+    "tags": {
+      "excluded": []
+    }
+  },
+  "scope": {
+    "packages": {
+      "excluded": [],
+      "included": []
+    },
+    "withKnown": false
+  },
+  "sources": [],
+  "tagger": {
+    "enabled": true
+  },
+  "targets": [
+    "cloud-readiness",
+    "eap8"
+  ]
+}
